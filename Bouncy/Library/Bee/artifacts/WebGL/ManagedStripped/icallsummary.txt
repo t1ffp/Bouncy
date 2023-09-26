@@ -652,7 +652,7 @@ UnityEngine.Rigidbody::set_detectCollisions
 UnityEngine.Rigidbody::set_isKinematic
 UnityEngine.Rigidbody2D::get_mass
 UnityEngine.Rigidbody2D::get_velocity_Injected
-UnityEngine.SceneManagement.Scene::GetNameInternal
+UnityEngine.SceneManagement.Scene::GetBuildIndexInternal
 UnityEngine.SceneManagement.SceneManager::get_sceneCount
 UnityEngine.SceneManagement.SceneManager::GetActiveScene_Injected
 UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected

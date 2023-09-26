@@ -343,6 +343,7 @@
 "Assets/Scripts/Restart.cs"
 "Assets/Scripts/ScoreManager.cs"
 "Assets/Scripts/Spawner.cs"
+"Assets/Scripts/StartMenu.cs"
 -langversion:9.0
 
 /deterministic

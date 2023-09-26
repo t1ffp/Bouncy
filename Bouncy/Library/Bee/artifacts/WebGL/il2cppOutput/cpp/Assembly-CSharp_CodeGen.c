@@ -38,9 +38,11 @@ extern void ScoreManager_UpdateScore_m226F66BDBCFC21B520C0C96D2D302F16EB9A2A1C (
 extern void ScoreManager_SpawnBall_m75750A5381DF58C48A5A540C27FB882FA2BE4C34 (void);
 extern void ScoreManager__ctor_mE5C264C34A9CBBAB72DCF99CCCC9841AF8F9FEE6 (void);
 extern void Spawner__ctor_mBF592E8E9B5682687D8C28E73A64BF29B6BF2088 (void);
+extern void StartMenu_PlayGame_mFED130A78ECFE2DF3013E0F5414F5467D0DB7DCA (void);
+extern void StartMenu__ctor_mF4B8FB56F43BCB65755F6B81F1C9446FEE79C577 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[28] = 
+static Il2CppMethodPointer s_methodPointers[30] = 
 {
 	FlipPaddle_Start_m4A75C0B5E96FF0510AD4B28217742242D63D5F2B,
 	FlipPaddle_Update_m8691A3DF474A61D3DFBF3BFB0E39B0ADCD19C30F,
@@ -68,10 +70,12 @@ static Il2CppMethodPointer s_methodPointers[28] =
 	ScoreManager_SpawnBall_m75750A5381DF58C48A5A540C27FB882FA2BE4C34,
 	ScoreManager__ctor_mE5C264C34A9CBBAB72DCF99CCCC9841AF8F9FEE6,
 	Spawner__ctor_mBF592E8E9B5682687D8C28E73A64BF29B6BF2088,
+	StartMenu_PlayGame_mFED130A78ECFE2DF3013E0F5414F5467D0DB7DCA,
+	StartMenu__ctor_mF4B8FB56F43BCB65755F6B81F1C9446FEE79C577,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[28] = 
+static const int32_t s_InvokerIndices[30] = 
 {
 	4900,
 	4900,
@@ -99,14 +103,16 @@ static const int32_t s_InvokerIndices[28] =
 	4900,
 	4900,
 	4900,
-	7108,
+	4900,
+	4900,
+	7109,
 	4900,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	28,
+	30,
 	s_methodPointers,
 	0,
 	NULL,
